@@ -39,20 +39,20 @@
       </div>
     </header>
     <main>
-      <section class="portfolio">
+      <section class="section">
         <div class="container">
           <div class="portfolio-btn">
             <ul class="portfolio-list list">
               <li><button type="button" class="portfolio-list-btn">Все</button></li>
-              <li><button type="button" class="portfolio-list-btn">Веб-сайты</button></li>
-              <li><button type="button" class="portfolio-list-btn">Приложения</button></li>
+              <li><button type="button" class="portfolio-list-btn">Веб-сайти</button></li>
+              <li><button type="button" class="portfolio-list-btn">Додатки</button></li>
               <li><button type="button" class="portfolio-list-btn">Дизайн</button></li>
               <li><button type="button" class="portfolio-list-btn">Маркетинг</button></li>
             </ul>
           </div>
           <div class="container-list">
-            <ul class="portfolio-list list">
-              <li>
+            <ul class="portfolio-list-pic list">
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio1.jpg" alt="notebook" width="370" height="294" />
                   <div class="container-title">
@@ -61,7 +61,7 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio2.jpg" alt="poster" width="370" height="294" />
                   <div class="container-title">
@@ -70,7 +70,7 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img
                     src="./images/portfolio3.jpg"
@@ -84,14 +84,16 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio4.jpg" alt="headphones" width="370" height="294" />
-                  <h2 class="portfolio-list-title">Проект Prime</h2>
-                  <p class="portfolio-list-after-title">Маркетинг</p>
+                  <div class="container-title">
+                    <h2 class="portfolio-list-title">Проект Prime</h2>
+                    <p class="portfolio-list-after-title">Маркетинг</p>
+                  </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio5.jpg" alt="boxes" width="370" height="294" />
                   <div class="container-title">
@@ -100,7 +102,7 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio6.jpg" alt="monitor" width="370" height="294" />
                   <div class="container-title">
@@ -109,14 +111,16 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio7.jpg" alt="book" width="370" height="294" />
-                  <h2 class="portfolio-list-title">Издание Limited Edition</h2>
-                  <p class="portfolio-list-after-title">Дизайн</p>
+                  <div class="container-title">
+                    <h2 class="portfolio-list-title">Издание Limited Edition</h2>
+                    <p class="portfolio-list-after-title">Дизайн</p>
+                  </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio8.jpg" alt="project LAB" width="370" height="294" />
                   <div class="container-title">
@@ -125,7 +129,7 @@
                   </div>
                 </a>
               </li>
-              <li>
+              <li class="portfolio-list-block">
                 <a href="" class="portfolio-pre-title link">
                   <img src="./images/portfolio9.jpg" alt="notebook" width="370" height="294" />
                   <div class="container-title">
@@ -141,19 +145,26 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="logo-footer">
-          <a lang="en" href="" class="footer-logo link logo-base"
-            ><span class="logo-web">Web</span><span class="logo-Stu-footer">Studio</span></a
-          >
-        </div>
+        <a lang="en" href="" class="footer-logo link logo-base"
+          ><span class="logo-web">Web</span><span class="logo-Stu-footer">Studio</span></a
+        >
         <address class="footer-addres">
           <span class="footer-addres-city">г. Киев, пр-т Леси Украинки, 26</span>
-          <a lang="en" href="mailto:info@devstudio.com" class="footer-addres-contact link"
-            >info@devstudio.com</a
-          >
-          <a lang="en" href="telto:+380961111111" class="footer-addres-contact link"
-            >+38 096 111 11 11</a
-          >
+          <ul>
+            <li>
+              <a
+                lang="en"
+                href="mailto:info@devstudio.com"
+                class="footer-addres-contact footer-mail link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a lang="en" href="telto:+380961111111" class="footer-addres-contact link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </address>
       </div>
     </footer>
