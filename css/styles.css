@@ -46,8 +46,12 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
-}
+  }
 
+  .section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* -----------HEADER------------- */
 
 .header {
@@ -115,6 +119,7 @@ img {
 /* -----------HERO------------- */
 .hero {
   background-color: #2f303a;
+  
 }
 
 .hero-content{
@@ -131,6 +136,7 @@ padding: 200px 452px 280px;
   color: var(--main-color-white);
   padding-bottom: 30px;
   min-width: 696px;
+  
 }
 
 .hero-btn {
@@ -154,13 +160,14 @@ padding: 200px 452px 280px;
 /* -----------SCILL------------- */
 
 .skill{
-
+padding: 94px 215px 0px;
 }
 
 .container-skill{
-  padding: 94px 215px;
-  width: 1170px;
-  height: 98px;
+    width: 1170px;
+  /* height: 98px; */
+  /* max-width: 1170px; */
+  background-color: rgb(236, 241, 75);
 
 }
 
@@ -170,7 +177,6 @@ padding: 200px 452px 280px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 94px;
   margin-bottom: 10px;
 }
 
@@ -209,6 +215,10 @@ padding: 200px 452px 280px;
   line-height: 1.17x;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .team-item-title {
@@ -217,7 +227,8 @@ padding: 200px 452px 280px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  /* background: var(--main-color-white); */
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team-item-after-title {
@@ -225,7 +236,7 @@ padding: 200px 452px 280px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: var(--main-color-grey); */
+  padding-bottom: 30px;
 }
 
 /* -----------FOOTER------------- */
@@ -234,12 +245,21 @@ padding: 200px 452px 280px;
   background-color: #2f303a;
 }
 
+.logo-footer{
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
 .logo-Stu-footer {
   color: var(--main-color-white);
 }
 
 .footer-addres {
+  display: block;
   font-style: normal;
+  width: 231px;
+  height: 81px;
+  padding-bottom: 60px;
 }
 
 .footer-addres-city {
@@ -254,6 +274,7 @@ padding: 200px 452px 280px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin: 9px 0px;
 }
 
 .footer-addres-contact:hover,
@@ -273,11 +294,28 @@ padding: 200px 452px 280px;
   color: #212121;
   background-color: #f5f4fa;
 }
+.portfolio-btn{
+  width: 575px;
+  /* height: 54px; */
+  padding-top: 94px;
+  padding-bottom: 34px;
+  margin: 0 auto;
+}
 
 .portfolio-list-btn:hover,
 .portfolio-list-btn:focus {
   background-color: var(--main-color-blue);
   color: var(--main-color-white);
+}
+
+.container-list{
+
+}
+
+.container-title{
+padding-top: 20px;
+padding-left: 5px;
+padding-right: 5px;
 }
 
 .portfolio-pre-title {
@@ -299,4 +337,6 @@ padding: 200px 452px 280px;
   letter-spacing: 0.03em;
   color: var(--main-color-grey);
   background-color: var(--main-color-white);
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
