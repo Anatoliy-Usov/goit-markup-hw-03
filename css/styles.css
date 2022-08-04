@@ -299,6 +299,9 @@ header .container {
   width: 231px;
   height: 81px;
 }
+.footer-list {
+  margin-top: 9px;
+}
 
 .footer-addres-contact {
   font-size: 14px;
@@ -308,7 +311,7 @@ header .container {
 }
 
 .footer-addres-list {
-  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-addres-contact:hover,
@@ -368,7 +371,6 @@ header .container {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-
 
 .portfolio-list-title {
   font-weight: 700;
